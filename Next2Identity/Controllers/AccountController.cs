@@ -65,6 +65,7 @@ namespace Next2Identity.Controllers
 
         [HttpPost]
         [AllowAnonymous]
+
         public async Task<IActionResult> Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
